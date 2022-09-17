@@ -1,0 +1,80 @@
+.speedometer-container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.speedometer-img {
+  width: 60%;
+}
+.main-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 40px;
+}
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 22px;
+}
+.description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  height: 35px;
+  width: 110px;
+  font-family: 'Roboto';
+  border-radius: 7px;
+  border-width: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.accelerate-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  margin-right: 15px;
+}
+.apply-button {
+  color: #94a3b8;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .main-heading {
+    font-size: 24px;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .button {
+    height: 28px;
+    width: 90px;
+    font-size: 13px;
+  }
+}
